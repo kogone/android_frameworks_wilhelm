@@ -10,7 +10,7 @@ LOCAL_SRC_FILES :=     \
 LOCAL_C_INCLUDES:= \
         $(call include-path-for, wilhelm)
 
-LOCAL_CFLAGS += -fvisibility=hidden -UNDEBUG
+LOCAL_CFLAGS += -Os -fvisibility=hidden -UNDEBUG
 
 LOCAL_MODULE := libOpenSLESUT
 
